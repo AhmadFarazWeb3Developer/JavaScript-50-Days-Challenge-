@@ -1,0 +1,13 @@
+// Arithmetic Operations:
+// - Addition
+console.log(12 + 34);
+// - Subtraction
+console.log(19 - 44);
+// - Multiplication
+console.log(2 * 4);
+// - Exponentiation
+console.log(2 ** 4);
+// - Division
+console.log(12 / 4);
+// - Modulus
+console.log(4 % 2);
