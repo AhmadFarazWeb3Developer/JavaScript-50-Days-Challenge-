@@ -1,3 +1,4 @@
+"use strict";
 let date = new Date();
 
 console.log(date.toString()); // Tue Jan 30 2024 12:51:22 GMT+0500 (Pakistan Standard Time)
