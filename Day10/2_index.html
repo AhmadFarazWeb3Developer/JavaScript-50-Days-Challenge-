@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body style="background-color: rgb(9, 20, 35); color: rgb(224, 231, 231)">
+    <!-- Parent div will be dynamically added here -->
+    <div class="parent"></div>
+  </body>
+  <script>
+    // Dynamically creating and injecting an element into the body
+    const div = document.createElement("div");
+    console.log(div); // Checking the creation of the div element
+    div.className = "parent"; // Adding class name 'parent' to the div
+    div.id = Math.round(Math.random() * 10 + 1); // Generating and setting a random ID
+    div.setAttribute("title", "generatedTitle"); // Setting a title attribute to the div
+    div.style.backgroundColor = "white"; // Setting background color of the div
+    div.style.padding = "12px"; // Setting padding for the div
+    const addText = document.createTextNode("DOM"); // Creating text node with content 'DOM'
+    div.appendChild(addText); // Appending the text node to the div
+
+    document.body.appendChild(div); // Appending the div to the body
+  </script>
+</html>
