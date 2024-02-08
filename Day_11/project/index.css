@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for h1 */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+/* Styling for div */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 700px;
+  margin-top: 50px;
+  border: 1px solid black;
+  margin-left: 300px;
+}
+
+/* Styling for button */
+button {
+  height: 100px;
+  width: 100px;
+  margin: 16px;
+  border: 0.5px solid white;
+  cursor: pointer;
+}
+
+#limegreen {
+  background: #42b883;
+}
+
+#teal {
+  background: #347474;
+}
+
+#steelblue {
+  background: #35495e;
+}
+
+.coral {
+  background: #ff7e67;
+}
