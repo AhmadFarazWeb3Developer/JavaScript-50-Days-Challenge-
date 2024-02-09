@@ -21,7 +21,7 @@ form.addEventListener("submit", (e) => {
         }
         // for normal weight
         else if (bmi >= 18.6 && bmi <= 24.9) {
-            details.innerHTML = `<span>Your weight is Normal</span>`;
+            details.innerHTML = `<span>Your BMI is Normal</span>`;
         }
         // for overweight
         else {
