@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(13, 146, 82);
+    font-family: sans-serif
+}
+
+button {
+    width: 45%;
+    height: 10%;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
