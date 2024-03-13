@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="audioPlayer.css" />
+    <title>Audio Player</title>
+    <script
+      src="https://kit.fontawesome.com/e7928e6edc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="audio-player">
+        <nav>
+          <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+
+          <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+        <img src="468-thumbnail.png" class="audio-img" />
+        <h1>Aspiration Motivational Orchestral Epic</h1>
+        <p>Rockot</p>
+
+        <audio id="audio">
+          <source
+            src="with-the-greatest-aspiration-motivational-orchestral-epic-music-191385.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+        <input type="range" value="0" id="progress" />
+        <div class="controls">
+          <div>
+            <i class="fa-solid fa-backward"></i>
+          </div>
+          <div onclick="playPause()" id="toggle">
+            <i class="fa-solid fa-play" id="ctrl-icon"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="audioPlayer.js"></script>
+  </body>
+</html>
