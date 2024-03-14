@@ -37,19 +37,20 @@ const validatePhone = () => {
     return false;
   }
 
-  if (inputPhone.length !== 10) {
-    phoneError.innerHTML = "Phone no should be 10 digits";
+  if (inputPhone.length !== 11) {
+    phoneError.innerHTML = "Phone no should be 11 digits";
     return false;
   }
 
-  if (!inputPhone.match(/^[0-9]{10}$/)) {
-    phoneError.innerHTML = "phone no is required";
+  if (!inputPhone.match(/^[0-9]{11}$/)) {
+    phoneError.innerHTML = "Phone no should contain only digits";
     return false;
   } else {
     phoneError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
   }
 };
+
 inputPhone.onkeyup = () => {
   validatePhone();
 };
