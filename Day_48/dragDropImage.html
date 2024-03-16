@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dragDropImage.css" />
+    <title>Drag Drop Image Uploader</title>
+  </head>
+  <body>
+    <div class="hero">
+      <label for="input-file" id="drop-area">
+        <input type="file" accept="image/*" id="input-file" hidden />
+        <div id="image-view">
+          <img src="icon.png" alt="" id="drop-image" />
+          <p>Drag and drop or click here <br />to upload image</p>
+          <span> Upload any images form desktop</span>
+        </div>
+      </label>
+      <div id="imageList" class="images"></div>
+    </div>
+    <script src="dragDropImage.js"></script>
+  </body>
+</html>
